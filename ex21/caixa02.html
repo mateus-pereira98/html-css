@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            border: 1px solid red;
+            padding: 10px;
+            background-color: darkcyan;
+        }
+        header {
+            border: 1px solid yellow;
+            background-color: rgb(1, 98, 98);
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        header > h1 {
+            border: 1px solid rgba(0, 0, 0, 0.055);
+            padding: 10px;
+            text-align: center;
+            color: whitesmoke;
+        }
+        nav {
+            margin-bottom: 10px;
+            text-align: center;
+            background-color: darkcyan;
+            box-shadow: 1px 2px 15px darkcyan;
+        }
+        nav > a {
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            
+        }
+        main {
+            border: 1px solid brown;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px 0px;
+            box-shadow: 1px 2px 10px rgba(165, 42, 42, 0.411);
+           
+        }
+        section {
+            border: 1px solid salmon;
+            padding: 10px;
+        }
+        article {
+            border: 1px solid greenyellow;
+            padding: 10px;
+        }
+        article > p {
+            border: 1px solid black;
+            padding: 10px;
+            background-color: rgb(1, 98, 98);
+        }
+        article h2 {
+            text-align: center;
+            color: whitesmoke;
+        }
+        footer {
+            border: 1px solid aquamarine;
+            padding: 10px;
+            
+        }
+        footer p {
+            border: 1px solid red;
+            padding: 10px;
+            color: whitesmoke;
+            background-color: black;
+            box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.37);  /* horizontal,vert, blur, cor */
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 5px 0px;
+            border-radius: 50px;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut placeat reprehenderit nobis hic explicabo quis quidem excepturi, eligendi voluptate. Aspernatur pariatur laboriosam, iusto neque magni totam aperiam. Praesentium, dolorum ipsa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ut ratione vero exercitationem, molestiae voluptate magni, reiciendis quaerat quis culpa nulla. Eaque reprehenderit iusto optio neque quam necessitatibus sapiente vel. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora repudiandae dolor ducimus architecto, eaque placeat voluptatibus numquam impedit expedita beatae omnis corrupti ad sint similique suscipit itaque. Doloremque, laboriosam soluta! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos maxime nobis minima nisi porro consequuntur, quaerat qui delectus quod atque eveniet iusto iste deleniti, magni sunt temporibus labore debitis reiciendis?</p>
+            </article>
+        </section>        
+    </main>
+    <footer>
+        <p>Feito por: Mateus da silva pereira </p>
+    </footer>
+        <div id="bola">
+        </div>
+      
+</body>
+</html>

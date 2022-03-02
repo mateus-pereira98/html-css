@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* em HTML é id = em CSS é #
+   em CSS é class = em CSS é .
+
+   dentro de um documento HTML só se pode ter um elemento com ID, A regra do W3C é se eu já coloquei um ID em um h1 por exemplo , eu não posso usar o mesmo id no documento HTML.
+*/
+body {
+    background-color: rgb(89, 238, 121);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+   
+    color: white;
+}
+
+h1#principal {
+    background-color: rgb(27, 182, 27);
+    text-align: center;
+}
+h2 {
+    color: black;
+    
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+.pe {
+    color: rgb(255, 255, 0);
+}
+span.pe {
+    color: white;
+}
+
+.destaque {
+    background-color: black;
+}
+/* pode-se colocar duas classes em um mesma tag por exemplo: <h1 class="pe destaque"> não precisa de virgula apenas do espaço*/
+
+/* pode-se colocar um id e uma classe no mesmo tag por exemplo : <h1 id="principal" class="pe"> * id se sobrepoe sobre a class. */ 

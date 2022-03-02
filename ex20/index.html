@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border: 10px solid darkslategray; /* largura, estilo, cor*/
+            padding: 10px;
+            /*margin: auto;  margin auto faz com que centralize independentemente do tamanho da tela...*/
+            /*  margin: 20px auto 20px auto; também centraliza só que com controle das margens de cima e de baixo ( top, right(auto), bottom, left(auto)) */
+            margin: 20px auto 50px auto;
+            
+            outline: 5px dashed salmon; 
+    
+        }
+        a {
+            border: 10px solid red;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!--h1 é box-level-->
+    <h1>Exemplo de caixa box-level</h1>             <!--a é inline-level -->
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a> vamos ver como tudo isso funciona.</p>
+</body>
+</html>
+
+<!-- sempre se configura começando no topo 12:00 horas, top , right, bottom, left-->
+<!-- user agent é o navegador que está exibindo o conteúdo-->
