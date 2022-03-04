@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        header {
+            background: linear-gradient(to bottom, yellow ,orange);
+            height: 150px;
+            position:relative;
+            box-shadow: 1px 1px 1px 1px orange;
+        }
+
+        div {
+            background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(182, 102, 37));
+            border: 1px solid rgb(246, 246, 246);
+            border-radius: 50%;
+            box-shadow: 8px 9px 20px 6px rgba(214, 66, 52, 0.733);
+            width: 100px;
+            height: 100px;
+            position:absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+        }
+        main {
+            width: 1000px;
+            background-color: white;
+            margin: auto;
+            padding: 10px;
+        }
+        main > h1 {
+            text-align: center;
+            margin: 10px;
+        }
+        main > p {
+            text-align: justify;
+        }
+
+        footer {
+            background-color: black;
+            height: 120px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+
+
+        footer > p {
+            color: white;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+
+        </div>
+    </header>
+    <main>
+        <h1>Principal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia consequuntur aliquid nemo molestiae veniam, dicta dignissimos officia repudiandae possimus recusandae neque repellat ipsum tempora totam placeat praesentium odit, aliquam voluptates? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, quaerat qui? Nam culpa odio illum qui praesentium rem id corporis laboriosam. Cum ut rerum, officiis a nihil excepturi reprehenderit? Cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste labore ea eum ad dignissimos adipisci corporis debitis voluptates facilis, nihil ipsum esse, nisi harum tempore rerum explicabo quidem. At, voluptatum?</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate dolorem libero illum perspiciatis ratione iste laborum eum voluptatem, neque quod totam. In asperiores quaerat eum deserunt velit ex dolorem aut. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur impedit sunt obcaecati corrupti amet, ea praesentium asperiores vel cumque accusamus ut culpa, voluptate eum eveniet nostrum beatae quibusdam, minus libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius optio accusantium id aut! Adipisci cum, nesciunt aperiam voluptas ex amet. Laborum doloremque, ducimus nostrum possimus delectus libero veniam mollitia modi?</p>
+        
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis sequi excepturi aliquid molestias officia corrupti debitis optio! Quidem doloremque repellat tempore ratione rerum inventore eius veritatis repudiandae vitae! Quasi, illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ab rem provident, magni exercitationem ad quod animi obcaecati iste est deserunt nihil fugit excepturi atque itaque numquam impedit? Officiis, sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque provident dolor iusto mollitia velit nisi reprehenderit sint facere facilis iure reiciendis quisquam quis aliquid, dicta, quos ex quidem libero repellendus?</p>
+    </main>
+
+    <footer>
+        <p>aaaaaaa</p>
+    </footer>
+
+</body>
+</html>
